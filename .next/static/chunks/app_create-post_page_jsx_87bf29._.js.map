@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/experiments/next/prompt_discovery/app/create-post/page.jsx"],"sourcesContent":["\"use client\"\r\nimport React from 'react'\r\nimport { useState } from 'react';\r\nimport { useSession } from 'next-auth/react';\r\nconst CreatePrompt = () => {\r\n  return (\r\n    <div>CreatePrompt</div>\r\n  )\r\n}\r\n\r\nexport default CreatePrompt "],"names":[],"mappings":";;;;AACA;AAEA;AAHA;;;;;AAIA,MAAM,eAAe;IACnB,qBACE,6LAAC;kBAAI;;;;;;AAET;KAJM;uCAMS"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

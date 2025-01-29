@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 135, "column": 0}, "map": {"version":3,"sources":["file://D%3A/experiments/next/prompt_discovery/app/api/auth/%5B...nextauth%5D/route.js"],"sourcesContent":["import NextAuth from \"next-auth\";\r\nimport GoogleProvider from \"next-auth/providers/google\";\r\n\r\nconsole.log({clientId: process.env.GOOGLE_ID,\r\n    clientSecret: process.env.GOOGLE_CLIENT_SECRET})\r\n\r\nexport const authOptions = {\r\n    providers: [GoogleProvider({\r\n        clientId: process.env.GOOGLE_ID,\r\n        clientSecret: process.env.GOOGLE_CLIENT_SECRET,\r\n    })],\r\n    async session({session}) {},\r\n    async signIn({profile}) {},\r\n}\r\n\r\nconst handler = NextAuth(authOptions);\r\n\r\nexport {handler as GET, handler as POST};"],"names":[],"mappings":";;;;;AAAA;AACA;;;AAEA,QAAQ,GAAG,CAAC;IAAC,UAAU,QAAQ,GAAG,CAAC,SAAS;IACxC,cAAc,QAAQ,GAAG,CAAC,oBAAoB;AAAA;AAE3C,MAAM,cAAc;IACvB,WAAW;QAAC,CAAA,GAAA,qJAAA,CAAA,UAAc,AAAD,EAAE;YACvB,UAAU,QAAQ,GAAG,CAAC,SAAS;YAC/B,cAAc,QAAQ,GAAG,CAAC,oBAAoB;QAClD;KAAG;IACH,MAAM,SAAQ,EAAC,OAAO,EAAC,GAAG;IAC1B,MAAM,QAAO,EAAC,OAAO,EAAC,GAAG;AAC7B;AAEA,MAAM,UAAU,CAAA,GAAA,uIAAA,CAAA,UAAQ,AAAD,EAAE"}},
+    {"offset": {"line": 160, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

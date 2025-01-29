@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/experiments/next/prompt_discovery/components/Nav.jsx"],"sourcesContent":["\r\n\r\nconst Nav = () => {\r\n  return (\r\n    <div>Nav</div>\r\n  )\r\n}\r\n\r\nexport default Nav"],"names":[],"mappings":";;;;;AAEA,MAAM,MAAM;IACV,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file://D%3A/experiments/next/prompt_discovery/app/layout.jsx"],"sourcesContent":["import styles from '@styles/globals.css'\r\nimport Nav from '@components/Nav'\r\n\r\n//data about the page\r\nexport const metadata = {\r\n    title : \"In Promptoo\",\r\n    description : \"In Promptoo is a platform for discovering and sharing prompts\"\r\n}   \r\n\r\n\r\nconst RootLayout = ({children}) => {\r\n  return (\r\n    <html lang='en'>\r\n        <body>\r\n            <div className=\"main\">\r\n                <div className=\"gradient\"></div>\r\n            </div>\r\n            <main className=\"app\">\r\n                <Nav/>\r\n                {children}\r\n            </main>\r\n        </body>\r\n    </html>\r\n  )\r\n}\r\n\r\nexport default RootLayout"],"names":[],"mappings":";;;;;AACA;;;;AAGO,MAAM,WAAW;IACpB,OAAQ;IACR,aAAc;AAClB;AAGA,MAAM,aAAa,CAAC,EAAC,QAAQ,EAAC;IAC5B,qBACE,8OAAC;QAAK,MAAK;kBACP,cAAA,8OAAC;;8BACG,8OAAC;oBAAI,WAAU;8BACX,cAAA,8OAAC;wBAAI,WAAU;;;;;;;;;;;8BAEnB,8OAAC;oBAAK,WAAU;;sCACZ,8OAAC,kHAAA,CAAA,UAAG;;;;;wBACH;;;;;;;;;;;;;;;;;;AAKjB;uCAEe"}},
+    {"offset": {"line": 88, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 99, "column": 0}, "map": {"version":3,"sources":["file://D%3A/experiments/next/prompt_discovery/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,0HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0]}},
+    {"offset": {"line": 101, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

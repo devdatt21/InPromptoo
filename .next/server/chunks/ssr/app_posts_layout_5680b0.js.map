@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/experiments/next/prompt_discovery/app/posts/layout.js"],"sourcesContent":["import React from 'react'\r\n\r\nconst layout = () => {\r\n  return (\r\n    <div>Navigate to top</div>\r\n  )\r\n}\r\n\r\nexport default layout"],"names":[],"mappings":";;;;AAAA;;;AAEA,MAAM,SAAS;IACb,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe"}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

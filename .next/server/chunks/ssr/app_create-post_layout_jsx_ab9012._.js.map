@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/experiments/next/prompt_discovery/app/create-post/layout.jsx"],"sourcesContent":["import React from 'react'\r\n\r\nconst layout = ({children}) => {\r\n    \r\n    const metadata = {\r\n        title: \"Create Prompt\",\r\n        description: \"Create a new prompt\"\r\n    }\r\n\r\n  return (\r\n    <html lang='en'>\r\n        \r\n    </html>\r\n  )\r\n}\r\n\r\nexport default layout"],"names":[],"mappings":";;;;AAAA;;;AAEA,MAAM,SAAS,CAAC,EAAC,QAAQ,EAAC;IAEtB,MAAM,WAAW;QACb,OAAO;QACP,aAAa;IACjB;IAEF,qBACE,8OAAC;QAAK,MAAK;;;;;;AAIf;uCAEe"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,3 @@
+{
+  "/api/prompt/[id]/route": "app/api/prompt/[id]/route.js"
+}
